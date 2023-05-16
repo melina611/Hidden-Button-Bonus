@@ -5,9 +5,9 @@ function hiddenButton() {
     for (let button of buttonGroup.getElementsByTagName("button")) {
         button.addEventListener("click", function (e) {
             if ("winnerOrLoser" + winnOrLose == button.id) {
-                button.innerHTML = "castigator"
+                button.innerHTML = "Winner"
             } else {
-                button.innerHTML = "necastigator"
+                button.innerHTML = "Loser"
             }
         })
     }
