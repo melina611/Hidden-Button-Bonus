@@ -29,7 +29,7 @@ function theWinnOrLoseButton(e) {
     if (e.target.id == randomWinnOrLoseButton) {
         e.target.innerText = "Winner"
     } else if ("winnerOrLoser" + winnOrLose == e.target.id) {
-        e.target.innerHTML = "Winner"
+        e.target.innerText = "Winner"
     } else {
         e.target.innerText = "Loser"
     }
